@@ -709,7 +709,6 @@ tr td{
     cursor: pointer;
 }
 @media only screen and (max-width: 769px){
-    
     .about-heading{
         padding: 6rem 0;
     }
