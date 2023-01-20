@@ -88,6 +88,10 @@ nav ul li a:hover{
     right: 0;
     bottom: 0;
     z-index: -1;
+    object-fit: cover;
+}
+.fa-bars{
+    display: none;
 }
 @media (min-aspect-ratio: 16/9){
     .back-video{
@@ -112,6 +116,32 @@ nav ul li a:hover{
     }
     .head-container{
         height: 85%;
+    }
+    .logo{
+        font-size: 1.5rem;
+    }
+    nav{
+        position: absolute;
+    }
+    nav ul li{
+        display: block;
+        font-size: 14px;
+        padding-bottom: 20px;
+    }
+    ul{
+        position: absolute;
+        right: 0;
+        padding: 20px;
+        top: 60px;
+        background: rgba(0,0,0,0.4);
+        display:none;
+    }
+    .fa-bars{
+        display: block;
+        cursor: pointer;
+    }
+    .active-bar{
+        display: block;
     }
 }
 
@@ -310,10 +340,13 @@ nav ul li a:hover{
     }
     .exclusives span{
         opacity: 1;
+        width: 40%;
         background: rgba(0,0,0,0.4);
     }
     #Exclusive-info .container{
-        grid-gap: 20px;
+        grid-gap: 25px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 

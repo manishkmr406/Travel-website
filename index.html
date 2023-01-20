@@ -22,6 +22,7 @@
             <li><a href="contact.html">Contact Us</a></li>
             <li class="sign-btn"><a href="Register.html">Register</a></li>
         </ul>
+        <i class="fa-solid fa-bars"></i>
     </nav>
     <div class="head-content">
         <h1>Travel India</h1>
@@ -233,5 +234,12 @@
         </div>
     </div>
 </section>
+<script>
+    let bar=document.querySelector('.fa-bars');
+    bar.addEventListener('click',()=>{
+        let list=document.querySelector('ul');
+        list.classList.toggle('active-bar');
+    });
+</script>
 </body>
 </html>
