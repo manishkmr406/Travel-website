@@ -92,6 +92,7 @@ nav ul li a:hover{
 }
 .fa-bars{
     color: #fff;
+    font-size: 25px;
     display: none;
 }
 @media (min-aspect-ratio: 16/9){
