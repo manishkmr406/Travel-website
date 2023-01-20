@@ -91,6 +91,7 @@ nav ul li a:hover{
     object-fit: cover;
 }
 .fa-bars{
+    color: #fff;
     display: none;
 }
 @media (min-aspect-ratio: 16/9){
