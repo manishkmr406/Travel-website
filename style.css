@@ -307,8 +307,8 @@ nav ul li a:hover{
     padding: 0 30px;
 }
 .sub-title{
-    padding: 30px;
-    font-size: 2.2vw;
+    padding: 3vw;
+    font-size: 30px;
     font-weight: 500;
     color: #29d9d5;
     text-align: center;
@@ -346,9 +346,6 @@ nav ul li a:hover{
     opacity: 1;
 }
 @media only screen and (max-width: 769px){
-    .sub-title{
-        font-size: 4.2vw;
-    }
     .exclusives span{
         opacity: 1;
         width: 35%;
@@ -437,7 +434,6 @@ nav ul li a:hover{
 }
 .services .service-container{
     display: grid;
-    /*grid-template-columns: repeat(3,1fr);*/
     grid-template-columns: repeat(auto-fit,minmax(350px,1fr));
     grid-gap: 25px; 
     padding: 0 5%;
@@ -612,9 +608,6 @@ nav ul li a:hover{
 @media only screen and (max-width: 643px){
     #gallery-info .heading{
         width: 100%;
-    }
-    #gallery-info .heading h3{
-        
     }
 }
 
