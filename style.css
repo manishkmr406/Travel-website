@@ -120,9 +120,6 @@ nav ul li a:hover{
     .logo{
         font-size: 1.8rem;
     }
-    nav{
-        position: fixed;
-    }
     nav ul li{
         display: block;
         padding-bottom: 20px;
