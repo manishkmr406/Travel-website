@@ -121,7 +121,7 @@ nav ul li a:hover{
         font-size: 1.8rem;
     }
     nav{
-        position: absolute;
+        position: fixed;
     }
     nav ul li{
         display: block;
@@ -246,7 +246,7 @@ nav ul li a:hover{
 }
 @media only screen and (max-width: 769px){
 .form-box{
-    margin-top: 70px;
+    margin-top: 110px;
 }
 .input-field{
     width: 90%;
